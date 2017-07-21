@@ -13,7 +13,7 @@ html {
 }
 body {
   background-color: #FFF;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lemonada';
   margin: 1em auto;
   max-width: 50em;
   height: 65em;
@@ -29,8 +29,8 @@ body {
 #section-left .section {
   margin-top: 40%;
   padding: 1em;
-}
-#section-left .section .logo {
+}Lemonada
+t .section .logo {
   height: 150px;
   width: 150px;
   border-radius: 50%;
