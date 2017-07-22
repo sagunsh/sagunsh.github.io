@@ -1,6 +1,5 @@
 /* --------------------------------------------------------
 Style Sheet for Website's Name
-
 version: 1.3
 last modified: 21.7.2017 by Sagun Shrestha
 author: Aadesh Shrestha
@@ -15,12 +14,14 @@ body {
   background-color: #FFF;
   font-family: 'Lemonada';
   margin: 1em auto;
-  max-width: 50em;
-  height: 65em;
+  max-width: 60em;
+  height: 85em;
 }
 #section-left {
-  width: 40%;
+  width: 36%;
   float: left;
+  font-family: 'Lemonada';
+  font-size: 16px;
   height: 100%;
   background-color: #fc7a70;
   color: #fff;
@@ -51,11 +52,11 @@ t .section .logo {
   margin-top: 40px;
 }
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato';
   text-transform: uppercase;
 }
 #section-right {
-  width: 65%;
+  width: 64%;
   float: right;
   /*height: 100%;*/
 }
