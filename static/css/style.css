@@ -5,6 +5,7 @@ body {
     max-width: 720px;
     text-align: left;
     background-color: white;
+    color: #000000;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
