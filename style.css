@@ -1,0 +1,11 @@
+body {
+  max-width: 800px;
+  text-align: justify;
+  margin: auto;
+  font-family: Verdana, sans-serif;
+  line-height: 2;
+}
+
+p, ul {
+  line-height: 1.5;
+}
