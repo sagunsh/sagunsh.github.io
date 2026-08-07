@@ -1,32 +1,136 @@
 <html lang="en">
-    <head>
-        <title>Watches</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="title" content="Wishlist"/>
-        <meta name="description" content="Things I want to own"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-              rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <title>Watches</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Wishlist"/>
+    <meta name="description" content="Things I want to own"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-    <body>
-        <h1 style="text-align: left; font-weight: normal">Watches</h1>
-        <ul>
-            <li><a href="https://www.grand-seiko.com/au-en/collections/sbgm221g" target="_blank">Grand Seiko SBGM221</a></li>
-            <li><a href="https://www.rolex.com/en-au/watches/explorer/m124270-0001" target="_blank">Rolex Explorer 36mm</a></li>
-            <li><a href="https://junghans.de/en/shop/watches-en/junghans-max-bill-en/max-bill-automatic-en/max-bill-automatic-17/" target="_blank">Junghans Max Bill Automatic</a></li>
-            <li><a href="https://www.omegawatches.com/en-au/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22010382003003" target="_blank">Omega Seamaster Aqua Terra 38mm</a></li>
-            <li><a href="https://orient-watch.com/en/orient/collection/sports/diver-design/RA-AA0820R/" target="_blank">Orient Kamasu Red Dial</a></li>
-            <li><a href="https://www.sternglas.com/products/naos-automatik-white" target="_blank">Sternglass Naos</a></li>
-            <li><a href="https://www.hamiltonwatch.com/en-au/h70405130-khaki-field-murph-auto.html" target="_blank">Hamilton Khaki Murph 38mm</a></li>
-            <li><a href="https://www.christopherward.com/c63-sealander-automatic/C63-36ADA4-S00W0-B0.html" target="_blank">Christopher Ward C63 Sealander Automatic</a></li>
-        </ul>
+    <style>
+        table {
+            width: 100%;
+            max-width: 48rem;
+            border-collapse: collapse;
+        }
 
-        <p><a href="resume.pdf" target="_blank">Resume</a> | <a href="https://github.com/sagunsh"
-                                                                target="_blank">GitHub</a> | <a
-                href="https://www.linkedin.com/in/sagunsh/" target="_blank">LinkedIn</a></p>
-    </body>
+        th, td {
+            padding: 0.75rem 1rem 0.75rem 0;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+            vertical-align: middle;
+        }
 
+        th {
+            font-weight: 500;
+        }
+
+        td img {
+            display: block;
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+        }
+
+        .image-cell {
+            width: 48px;
+            padding-right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: left; font-weight: normal">Watches</h1>
+
+    <table>
+        <tr>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Case Size</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Grand Seiko</td>
+            <td><a href="https://www.grand-seiko.com/au-en/collections/sbgm221g" target="_blank">SBGM221</a></td>
+            <td>39.5 mm</td>
+            <td class="image-cell"><img src="images/grand-seiko-sbgm221.jpg" alt="Grand Seiko SBGM221" loading="lazy">
+            </td>
+        </tr>
+        <tr>
+            <td>Rolex</td>
+            <td><a href="https://www.rolex.com/en-au/watches/explorer/m124270-0001" target="_blank">Explorer</a>
+            </td>
+            <td>36 mm</td>
+            <td class="image-cell">
+                <img src="images/rolex-explorer-36.jpg" alt="Rolex Explorer" loading="lazy">
+            </td>
+        </tr>
+        <tr>
+            <td>Junghans</td>
+            <td>
+                <a href="https://junghans.de/en/shop/watches-en/junghans-max-bill-en/max-bill-automatic-en/max-bill-automatic-17/"
+                   target="_blank">Max Bill Automatic</a></td>
+            <td>38mm</td>
+            <td class="image-cell">
+                <img src="images/junghans-max-bill.jpg" alt="Junghans Max Bill Automatic"
+                     loading="lazy">
+            </td>
+        </tr>
+        <tr>
+            <td>Omega</td>
+            <td>
+                <a href="https://www.omegawatches.com/en-au/watch-omega-seamaster-aqua-terra-shades-co-axial-master-chronometer-38-mm-22010382003003"
+                   target="_blank">Seamaster Aqua Terra</a></td>
+            <td>38mm</td>
+            <td class="image-cell">
+                <img src="images/omega-aqua-terra.jpg" alt="Omega Seamaster Aqua Terra"
+                     loading="lazy">
+            </td>
+        </tr>
+        <tr>
+            <td>Orient</td>
+            <td>
+                <a href="https://orient-watch.com/en/orient/collection/sports/diver-design/RA-AA0820R/" target="_blank">
+                    Kamasu Red Dial</a>
+            </td>
+            <td>41.8 mm</td>
+            <td class="image-cell">
+                <img src="images/orient-kamasu.jpg" alt="Orient Kamasu" loading="lazy">
+            </td>
+        </tr>
+        <tr>
+            <td>Sternglas</td>
+            <td>
+                <a href="https://www.sternglas.com/products/naos-automatik-white" target="_blank">Naos Automatik</a>
+            </td>
+            <td>38 mm</td>
+            <td class="image-cell">
+                <img src="images/sternglas-naos.jpg" alt="Sternglas Naos Automatik" loading="lazy">
+            </td>
+        </tr>
+        <tr>
+            <td>Hamilton</td>
+            <td>
+                <a href="https://www.hamiltonwatch.com/en-au/h70405130-khaki-field-murph-auto.html" target="_blank">
+                    Khaki Field Murph</a>
+            </td>
+            <td>38mm</td>
+            <td class="image-cell"><img src="images/hamilton-khaki-field-murph.jpg" alt="Hamilton Khaki Field Murph"
+                                        loading="lazy"></td>
+        </tr>
+        <tr>
+            <td>Christopher Ward</td>
+            <td>
+                <a href="https://www.christopherward.com/c63-sealander-automatic/C63-36ADA4-S00W0-B0.html"
+                   target="_blank">C63 Sealander Automatic</a>
+            </td>
+            <td>36 mm</td>
+            <td class="image-cell"><img src="images/christopher-ward-c63-sealander.jpg"
+                                        alt="Christopher Ward C63 Sealander Automatic" loading="lazy"></td>
+        </tr>
+    </table>
+</body>
 </html>
